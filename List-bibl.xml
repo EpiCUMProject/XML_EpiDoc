@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <seg xml:lang="en">Bibliography</seg>
+                    <seg xml:lang="it">Bibliografia</seg>
+                </title>
+                <funder>Patto per Catania</funder>
+                <respStmt>
+                    <name xml:id="DS">Daria Spampinato</name>
+                    <resp>Ricerca bibliografica e inserimento dati</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="SC">Salvatore Cristofaro</name>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="FP">Francesca Prado</name>
+                    <resp>Ricerca bibliografica e inserimento dati</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    <!-- Insert information about the publication of this digital text -->
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                    <!-- Insert a bibliographic description of the source for this digital text -->
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>This is a template for a minimal TEI header with the mandatory components:</p>
+        </body>
+        <back>
+            <div type="biblCompleta">
+                <listBibl>
+                    
+                    <!-- 	Ko 2004 - Kalle Korhonen, Le iscrizioni del Museo Civico di Catania: Storia delle collezioni - Cultura epigrafa - Edizione. Societas Scientiarum Fennica: Commentationes humanarum litterarum, vol. 121, Helsinki 2004, pp. 418 -->
+                    <bibl xml:id="Ko2004" type="print">
+                        <author xml:id="KK">
+                            <forename>Kalle</forename>
+                            <surname>Korhonen</surname>
+                        </author>
+                        <title level="m">Le iscrizioni del Museo Civico di Catania: Storia delle collezioni - Cultura epigrafa - Edizione</title>
+                        <publisher>Societas Scientiarum Fennica</publisher>
+                        <title level="s">Commentationes humanarum litterarum</title>
+                        <biblScope unit="volume">121</biblScope>
+                        <pubPlace>Helsinki</pubPlace>
+                        <date when="2004">2004</date>
+                        <biblScope unit="page">418</biblScope>
+                    </bibl>
+                    
+                    <!--  L1930 - Guido Libertini, Il Museo Biscari. Casa Editrice d'Arte, Milano - Roma, 1930, pp. XXVII, 327, tav. 135 -->	
+                    <bibl xml:id="L1930" type="print">
+                        <author xml:id="GL">
+                            <forename>Guido</forename>
+                            <surname>Libertini</surname>
+                        </author>
+                        <title level="m">Il Museo Biscari</title>
+                        <publisher>Casa Editrice d'Arte</publisher>
+                        <pubPlace>Milano - Roma</pubPlace>
+                        <date when="1930">1930</date>
+                        <biblScope unit="page">XXVII, 327, tav. 135</biblScope>
+                    </bibl>
+                    
+                    <!-- L1937	- Guido Libertini, Il Castello Ursino e le raccolte artistiche comunali di Catania. Tip. Zuccarello e Izzi, Catania, 1937, pp. 173, tav. 23 -->	
+                    <bibl xml:id="L1937" type="print">
+                        <ref target="http://www.zotero.org/groups/382445/items/P7FP4UWI"/>
+                        <author xml:id="GL">
+                            <forename>Guido</forename>
+                            <surname>Libertini</surname>
+                        </author>
+                        <title level="m">Il Castello Ursino e le raccolte artistiche comunali di Catania</title>
+                        <publisher>Tip. Zuccarello e Izzi</publisher>
+                        <pubPlace>Catania</pubPlace>
+                        <date when="1937">1937</date>
+                        <biblScope unit="page">173, tav. 23</biblScope>
+                    </bibl>
+                    
+                    <!--  MA1960 - Enzo Maganuco, Santi Luigi Agnello (edd.), Museo Civico di Castello Ursino. Catalogo delle opere. Catania, 1960 -->	
+                    <bibl xml:id="MA1960" type="dattiloscritto">
+                        <editor xml:id="EM">
+                            <forename>Enzo</forename>
+                            <surname>Maganuco</surname>
+                        </editor>
+                        <editor xml:id="SLA">
+                            <forename>Santi Luigi</forename>
+                            <surname>Agnello</surname>
+                        </editor>
+                        <title level="m">Museo Civico di Castello Ursino. Catalogo delle opere</title>
+                        <publisher></publisher>
+                        <pubPlace>Catania</pubPlace>
+                        <date when="1960">1960</date>
+                        <biblScope unit="page"></biblScope>
+                    </bibl>
+                    
+                    
+                    <!-- PO1915 - Orsi Paolo -->										
+                    <bibl xml:id="PO1915" type="print">
+                        <ref target="http://zotero.org/groups/382445/items/4MCP2PVV"/>
+                        <author xml:id="PO">
+                            <forename>Paolo</forename>
+                            <surname>Orsi</surname>
+                        </author>
+                        <title level="a">Sicilia</title>
+                        <title level="j">Notizie degli scavi di antichità</title>
+                        <biblScope unit="volume">XII</biblScope>
+                        <biblScope unit="issue">6</biblScope>
+                        <biblScope unit="page" from="175" to="234">175-234</biblScope>
+                        <pubPlace>Roma</pubPlace>
+                        <publisher>Accademia nazionale dei Lincei</publisher>
+                        <date when="1915">1915</date>
+                    </bibl>
+                    
+                    <!-- PS2006 -	Pafumi Stefania, Museum Biscarianum. Materiali per lo studio delle collezioni di Ignazio Paternò Castello di Biscari (1719-1786). Alma Editore, Catania, 2006, pp. 264-->	
+                    <bibl xml:id="PS2006" type="print">
+                        <author xml:id="SP">
+                            <forename>Stefania</forename>
+                            <surname>Pafumi</surname>
+                        </author>
+                        <title level="m">Museum Biscarianum. Materiali per lo studio delle collezioni di Ignazio Paternò Castello di Biscari (1719-1786)</title>
+                        <publisher>Alma Editore</publisher>
+                        <pubPlace>Catania</pubPlace>
+                        <date when="2006">2006</date>
+                        <biblScope unit="page">264</biblScope>
+                    </bibl>
+                    
+                    <!-- ET2016 - Tortorici Edoardo (ed.), Catania antica. la carta archeologica. «L'Erma» di Bretschneider, Roma, 2016, pp. 490 + 10 p. di tavole.-->
+                    <bibl xml:id="ET2016" type="print">
+                        <editor xml:id="ET">
+                            <forename>Edoardo</forename>
+                            <surname>Tortorici</surname>
+                        </editor>
+                        <title level="m">Catania antica. la carta archeologica</title>
+                        <publisher>&#x00AB;L'Erma&#x00AB; di Bretschneider</publisher>
+                        <pubPlace>Roma, Italy</pubPlace>
+                        <date when="2016">2016</date>
+                        <biblScope unit="page">490 + 10 tavole</biblScope>
+                    </bibl>
+                    
+                    <!-- RJAW1990 Wilson Roger John Anthony -->  
+                    <bibl xml:id="RJAW1990" type="print">
+                        <ref target="http://www.zotero.org/groups/382445/items/VF9MMBI9"/>
+                        <author xml:id="RJAW">
+                            <forename>Roger John Anthony</forename>
+                            <surname>Wilson</surname>
+                        </author>
+                        <title level="m">Sicily under the Roman Empire: the archaeology of a Roman province, 36BC-AD535</title>
+                        <title level="s">Archaeologists' guides to the Roman Empire</title>
+                        <publisher>Aris &amp; Phillips</publisher>
+                        <pubPlace>Warminster, England</pubPlace>
+                        <date when="1990">1990</date>
+                        <biblScope unit="page">ix+452</biblScope>
+                    </bibl>
+                    
+                    
+                    <!-- CIL.X - Corpus inscriptionum Latinarum. Vol. X: Inscriptiones Bruttiorum, Lucaniae, Campaniae, Siciliae, Sardiniae Latinae, Th. Mommsen (ed.), Berlin, 1883 -->                 	
+                    <bibl xml:id="CIL.X" type="print">
+                        <ref target="http://arachne.uni-koeln.de/books/CILv10pII1883"/>
+                        <editor xml:id="ThM">
+                            <forename>Theodor</forename>
+                            <surname>Mommsen</surname>
+                        </editor>
+                        <title level="m">Inscriptiones Bruttiorum, Lucaniae, Campaniae, Siciliae, Sardiniae Latinae</title>
+                        <title level="s">Corpus inscriptionum Latinarum</title>
+                        <biblScope unit="volume">X</biblScope>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher></publisher>
+                        <date when="1883">1883</date>
+                    </bibl>
+                    
+                    <!-- CIL.VI - Corpus inscriptionum Latinarum. Vol. VI: Inscriptiones urbis Romae latinae, Wilhelm Henzen, Giovanni Battista De Rossi, Eugen Bormann, Christian Hülsen (edd.), Berlin, 1882 -->                 	
+                    <bibl xml:id="CIL.VI" type="print">
+                        <ref target="http://arachne.uni-koeln.de/books/CILv6pII1882"/>
+                        <editor xml:id="WH">
+                            <forename>Wilhelm</forename>
+                            <surname>Henzen</surname>
+                        </editor>
+                        <editor xml:id="GBDR">
+                            <forename>Giovanni Battista</forename>
+                            <surname>De Rossi</surname>
+                        </editor> <editor xml:id="EB">
+                            <forename>Eugen</forename>
+                            <surname>Bormann</surname>
+                        </editor> <editor xml:id="CH">
+                            <forename>Christian</forename>
+                            <surname>Hülsen</surname>
+                        </editor><title level="m">Inscriptiones urbis Romae latinae</title>
+                        <title level="s">Corpus inscriptionum Latinarum</title>
+                        <biblScope unit="volume">VI</biblScope>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher></publisher>
+                        <date when="1882">1882</date>
+                    </bibl>
+
+<!-- CIL.XV - Corpus inscriptionum Latinarum. Vol. XV, 1: Inscriptiones urbis Romae latinae. Instrumentum domesticum, Pars prior, Henricus Dressel (ed.), Roma, 1891 -->                 	
+                    <bibl xml:id="CIL.XV" type="print">
+                        <ref target="https://arachne.dainst.org/entity/2447199"/>
+                        <editor xml:id="HD">
+                            <forename>Henricus</forename>
+                            <surname>Dressel</surname>
+                        </editor>
+                       <title level="m">Inscriptiones urbis Romae latinae. Instrumentum domesticum, Pars prior</title>
+                        <title level="s">Corpus inscriptionum Latinarum</title>
+                        <biblScope unit="volume">XV</biblScope>
+                        <pubPlace>Roma</pubPlace>
+                        <publisher></publisher>
+                        <date when="1891">1891</date>
+                    </bibl>
+                    
+                    <!-- IG.XIV - Inscriptiones Graecae. Vol. XIV: Inscriptiones Graecae Siciliae et Italiae additis Galliae Hispaniae Britanniae Germaniae inscriptionibus, Georg Kaibel (ed.), Berlin, 1890  -->                 	 
+                    <bibl xml:id="IG.XIV" type="print">
+                        <ref target="https://epigraphy.packhum.org/regions/1308"/>
+                        <editor xml:id="GK">
+                            <forename>Georg</forename>
+                            <surname>Kaibel</surname>
+                        </editor>
+                        <title level="m">Inscriptiones Graecae Siciliae et Italiae additis Galliae Hispaniae Britanniae Germaniae inscriptionibus</title>
+                        <title level="s">Inscriptiones Graecae</title>
+                        <biblScope unit="volume">XIV</biblScope>
+                        <pubPlace>Berlin</pubPlace>
+                        <date when="1890">1890</date>
+                    </bibl>
+                    
+                    <!-- ICUR - Inscriptiones Christianae urbis Romae I-III, Giovanni Battista De Rossi (ed.), Ex Officina Libraria Pontificia, In civitate Vaticana Roma, 1857-1888  -->                 	
+                    <bibl xml:id="ICUR" type="print">
+                        <editor xml:id="GBDR">
+                            <forename>Giovanni Battista</forename>
+                            <surname>De Rossi</surname>
+                        </editor> 
+                        <title level="m">Inscriptiones Christianae urbis Romae I-III</title>
+                        <pubPlace>In civitate Vaticana Roma</pubPlace>
+                        <publisher>Ex Officina Libraria Pontificia</publisher>
+                        <date when="1857-1888">1857-1888</date>
+                    </bibl>
+                    
+                    <!-- IGUR - Inscriptiones Graecae urbis Romae I-IV, Luigi Moretti (ed.), Istituto italiano per la Storia antica voll. 17, 22, 28, 47, Roma, 1968-1990  -->                 	
+                    <bibl xml:id="IGUR" type="print">
+                        <ref target="https://epigraphy.packhum.org/book/250?location=1308"/>
+                        <editor xml:id="LM">
+                            <forename>Luigi</forename>
+                            <surname>Moretti</surname>
+                        </editor> 
+                        <title level="m">Inscriptiones Graecae urbis Romae I-IV</title>
+                        <pubPlace>Roma</pubPlace>
+                        <publisher>Istituto italiano per la Storia antica</publisher>
+                        <biblScope unit="volume">17, 22, 28, 47</biblScope>
+                        <date when="1968-1990">1968-1990</date>
+                    </bibl>
+                    
+                    <!-- AE - L’Année épigraphique, Presses universitaires de France, Paris  -->                 	
+                    <bibl xml:id="AE" type="print">
+                        <ref target="http://anneeepigraphique.msh-paris.fr"/>
+                        <title level="j">L’Année épigraphique</title>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Presses universitaires de France</publisher>
+                    </bibl>
+                    
+                    <!-- BE - Bulletin Épigraphique, Paris  -->                 	
+                    <bibl xml:id="BE" type="print">
+                        <ref target="http://www.revue-des-etudes-grecques.com/bulletin-epigraphique"/>
+                        <title level="j">Bulletin Épigraphique</title>
+                        <pubPlace>Paris</pubPlace>
+                    </bibl>
+                    
+                    <!-- SEG - Supplementum Epigraphicum Graecum -->
+                    <bibl xml:id="SEG" type="print">
+                        <ref target="http://zotero.org/groups/382445/items/F2GG87EQ"/>
+                        <title level="j">Supplementum Epigraphicum Graecum</title>
+                        <publisher>Alphen aan den Rijn, the Netherlands : Sijthoff &amp; Noordhoff Amsterdam : J.C. Gieben</publisher>
+                        <pubPlace>Leiden : Brill</pubPlace>
+                    </bibl>
+                    
+                    <!-- A2020 -Gaetano Arena, Luoghi “pubblici” e donne “ai margini”: un’attrice a Catania romana. Gerión. Revista de Historia Antigua, 38(1), 83-116 -->
+                    <bibl xml:id="A2020" type="print">
+                        <author xml:id="GA">
+                            <forename>Gaetano</forename>
+                            <surname>Arena</surname>
+                        </author>
+                        <title level="a">Luoghi “pubblici” e donne “ai margini”: un’attrice a Catania romana</title>
+                        <title level="j">Gerión. Revista de Historia Antigua</title>
+                        <biblScope unit="volume">38</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <biblScope unit="page" from="83" to="116">83-116</biblScope>
+                        <date when="2020">2020</date>
+                    </bibl>                    
+
+                    <!-- C2020 -Margherita Cassia,  “La stola e il silenzio”? “Parole” di donna in un epitaffio catanese d’età imperiale, in Gerión. Revista de Historia Antigua, 38(1), pp. 55-81 -->
+                    <bibl xml:id="C2020" type="print">
+                        <author xml:id="MC">
+                            <forename>Margherita</forename>
+                            <surname>Cassia</surname>
+                        </author>
+                        <title level="a">“La stola e il silenzio”? “Parole” di donna in un epitaffio catanese d’età imperiale</title>
+                        <title level="j">Gerión. Revista de Historia Antigua</title>
+                        <biblScope unit="volume">38</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <date when="2020">2020</date>
+                        <biblScope unit="page" from="55" to="81">55-81</biblScope>
+                    </bibl>
+                        <!-- G2020 - Claudia Giuffrida, Aurelius Samohil between ius and identity, in CODEX - Giornale romanistico di studi giuridici politici e sociali, 1, 2020, pp. 59-88 -->
+                    <bibl xml:id="G2020" type="print">
+                            <author xml:id="CG">
+                                <forename>Claudia</forename>
+                                <surname>Giuffrida</surname>
+                            </author>
+                            <title level="a">Aurelius Samohil between ius and identity</title>
+                            <title level="j">CODEX - Giornale romanistico di studi giuridici politici e sociali</title>
+                            <biblScope unit="volume">1</biblScope>
+                            <date when="2020">2020</date>
+                            <biblScope unit="page" from="59" to="88">59-88</biblScope>
+                    </bibl>
+                    <!-- S2020 - Mariarita Sgarlata, L’edizione delle ICI Siracusa: dati generali e anticipazioni, in F. Bisconti, G. Ferri edd., Taccuino per Anna Maria Giuntella. Piccoli scritti di archeologia cristiana e medievale, Todu, pp. 289-297 -->
+                    <bibl xml:id="S2020" type="print">
+                        <author xml:id="MS">
+                            <forename>Mariarita</forename>
+                            <surname>Sgarlata</surname>
+                        </author>
+                        <title level="a">L’edizione delle ICI Siracusa: dati generali e anticipazioni</title>
+                        <editor>
+                            <forename>Fabrizio</forename>
+                            <surname>Bisconti</surname> 
+                            </editor>
+                            <editor>
+                                <forename>Giovanna</forename>
+                                <surname>Ferri</surname>
+                            </editor>
+                            <title level="m">Taccuino per Anna Maria Giuntella. Piccoli scritti di archeologia cristiana e medievale</title>
+                        <publisher>TAU</publisher>
+                        <pubPlace>Todi</pubPlace>
+                        <biblScope unit="page" from="289" to="297">289-297</biblScope>
+                        <date when="2020">2020</date>
+                    </bibl>
+                  
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

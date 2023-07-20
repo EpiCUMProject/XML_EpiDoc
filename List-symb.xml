@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+                <titleStmt>
+                    <title>
+                        <seg xml:lang="en">List of symbols</seg>
+                        <seg xml:lang="it">Lista dei simboli</seg>
+                    </title>
+                    <funder>Patto per Catania</funder>
+                    <respStmt>
+                        <name xml:id="FP">Francesca Prado</name>
+                        <resp>Individuazione dei simboli e creazione lista</resp>
+                    </respStmt>
+                    <respStmt>
+                        <name xml:id="DS">Daria Spampinato</name>
+                        <resp>Encoding</resp>
+                    </respStmt>
+                    <respStmt>
+                        <name xml:id="SC">Salvatore Cristofaro</name>
+                        <resp>Encoding</resp>
+                    </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    <!-- Insert information about the publication of this digital text -->
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+               <p>
+                   <!-- Insert information about the publication of this digital text -->
+               </p> 
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <charDecl>
+                <glyph xml:id="alpha-omega">
+                    <glyphName xml:lang="en">α ω</glyphName>
+                    <glyphName xml:lang="it">α ω</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/alpha-omega.jpg"></graphic>
+                    </figure>
+                    <note>Lettere greche usate come simbolo cristiano. Indicano il principio e la fine.</note>
+                </glyph>
+                
+                <glyph xml:id="arbor">
+                    <glyphName xml:lang="en">Tree</glyphName>
+                    <glyphName xml:lang="it">Albero</glyphName>
+                    <desc>NA</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/arbor.jpg"></graphic>
+                    </figure>
+                </glyph>
+                
+               <glyph xml:id="ascia">
+                    <glyphName xml:lang="en">Axe</glyphName>
+                    <glyphName xml:lang="it">Ascia</glyphName>
+                    <desc>NA</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/ascia.jpg"></graphic>
+                    </figure>
+                    <note>L'ascia potrebbe fare riferimento alla professione del defunto. Potrebbe anche indicare un monumento costruito di recente o non ancora completato. 
+                       Usato con funzione apotropaica nel<date>III secolo d.C.</date>
+                    </note>
+                </glyph>
+                
+                <glyph xml:id="astrum">
+                    <glyphName xml:lang="en">Star</glyphName>
+                    <glyphName xml:lang="it">Stella</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/astrum.jpg"></graphic>
+                    </figure>
+                </glyph>
+                
+                <glyph xml:id="avis">
+                    <glyphName xml:lang="en">Bird</glyphName>
+                    <glyphName xml:lang="it">Uccello</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/avis.jpg"></graphic>
+                    </figure>
+                </glyph>
+                
+                <glyph xml:id="centuria">
+                    <glyphName xml:lang="en">Centuria</glyphName>
+                    <glyphName xml:lang="it">Centuria</glyphName>
+                    <desc>Simbolo per indicare una centuria</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/centuria547.jpg"></graphic>
+                    </figure>
+                </glyph>
+                
+                <glyph xml:id="cervus">
+                    <glyphName xml:lang="en">Deer</glyphName>
+                    <glyphName xml:lang="it">Cervo</glyphName>
+                    <desc>NA</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/cervus.jpg"></graphic>
+                    </figure>
+                </glyph>
+                
+                <glyph xml:id="chi-rho">
+                    <glyphName xml:lang="en">Christogram</glyphName>
+                    <glyphName xml:lang="it">Cristogramma</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/chi-rho.jpg"></graphic>
+                    </figure>
+                    <note>Lettere iniziali del nome di Cristo sovrapposte. Indicano che il defunto è cristiano.</note>
+                </glyph>
+                
+                <glyph xml:id="clipeus">
+                    <glyphName xml:lang="en">Shield</glyphName>
+                    <glyphName xml:lang="it">Scudo</glyphName>
+                    <desc>Simbolo a scopo ornamentale</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/clipeus.jpg"></graphic>
+                    </figure>
+                </glyph>
+                
+                <glyph xml:id="columba">
+                    <glyphName xml:lang="en">Dove</glyphName>
+                    <glyphName xml:lang="it">Colomba</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/columba.jpg"></graphic>
+                    </figure>
+                    <note>Rappresenta lo Spirito Santo e la resurrezione. Indica che l'anima del defunto è nella pace di Dio.</note>
+                </glyph>
+                
+                <glyph xml:id="columna">
+                    <glyphName xml:lang="en">Column</glyphName>
+                    <glyphName xml:lang="it">Colonna</glyphName>
+                    <desc>Simbolo a scopo ornamentale</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/columna.jpg"></graphic>
+                    </figure>
+                </glyph>
+                
+                <glyph xml:id="cornucopia">
+                    <glyphName xml:lang="en">Cornucopia</glyphName>
+                    <glyphName xml:lang="it">Cornucopia</glyphName>
+                    <desc>Simbolo a scopo ornamentale</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/cornucopia.jpg"></graphic>
+                    </figure>
+                    <note>Simbolo beneaugurante, rappresenta l'abbondanza.</note>
+                </glyph>
+                
+                <glyph xml:id="corona">
+                    <glyphName xml:lang="en">Wreath</glyphName>
+                    <glyphName xml:lang="it">Ghirlanda</glyphName>
+                    <desc>Simbolo a scopo ornamentale</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/corona.jpg"></graphic>
+                    </figure>
+                </glyph>
+                
+                <glyph xml:id="crater">
+                    <glyphName xml:lang="en">Krater</glyphName>
+                    <glyphName xml:lang="it">Cratere</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/crater.jpg"></graphic>
+                    </figure>
+                    <note>Rappresenta i refrigeria, i pasti funebri in onore del defunto.</note>
+                </glyph>
+                
+                <glyph xml:id="crux">
+                    <glyphName xml:lang="en">Cross</glyphName>
+                    <glyphName xml:lang="it">Croce</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/crux.jpg"></graphic>
+                    </figure>
+                    <note>Rappresenta la redenzione e la salvezza.</note>
+                </glyph>
+                
+                <glyph xml:id="equus">
+                    <glyphName xml:lang="en">Horse</glyphName>
+                    <glyphName xml:lang="it">Cavallo</glyphName>
+                    <desc>NA</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/equus.jpg"></graphic>
+                    </figure>
+                    <note>Rappresenta un'attività d'interesse per il defunto</note>
+                </glyph>
+                
+                <glyph xml:id="hasta">
+                    <glyphName xml:lang="en">Spear</glyphName>
+                    <glyphName xml:lang="it">Asta</glyphName>
+                    <desc>Simbolo a scopo ornamentale</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/hasta.jpg"></graphic>
+                    </figure>
+                </glyph>
+                
+                <glyph xml:id="hedera">
+                    <glyphName xml:lang="en">Ivy leaf</glyphName>
+                    <glyphName xml:lang="it">Foglia di edera</glyphName>
+                    <desc>Segno d'interpunzione</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/hedera.jpg"></graphic>
+                    </figure>
+                </glyph>
+                
+                <glyph xml:id="I.X.Θ.Υ.Σ."> 
+                    <glyphName xml:lang="en">I.X.Θ.Υ.Σ.</glyphName>
+                    <glyphName xml:lang="it">I.X.Θ.Υ.Σ.</glyphName>
+                    <desc>Acronimo usato dai cristiani per indicare il nome di Gesù: Gesù Cristo, figlio di Dio, Salvatore</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/ictius.jpg"></graphic>
+                    </figure>
+                </glyph>
+
+                <glyph xml:id="laurus">
+                    <glyphName xml:lang="en">Laurel branch</glyphName>
+                    <glyphName xml:lang="it">Ramo di alloro</glyphName>
+                    <desc>Simbolo a scopo ornamentale</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/laurus.jpg"></graphic>
+                    </figure>
+                </glyph>
+              
+                <glyph xml:id="luna">
+                    <glyphName xml:lang="en">Moon</glyphName>
+                    <glyphName xml:lang="it">Luna</glyphName>
+                    <desc>Simbolo a scopo ornamentale</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/luna.jpg"></graphic>
+                    </figure>
+                    <note>Luna crescente</note>
+                </glyph>
+                
+                <glyph xml:id="menorah">
+                    <glyphName xml:lang="en">Menorah</glyphName>
+                    <glyphName xml:lang="it">Menorah</glyphName>
+                    <desc>Simbolo ebraico</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/menorah.jpg"></graphic>
+                    </figure>
+                    <note>Candelabro ebraico a sette bracci</note>
+                </glyph>
+                
+                <glyph xml:id="mensa">
+                    <glyphName xml:lang="en">Mensa</glyphName>
+                    <glyphName xml:lang="it">Table</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/mensa.jpg"></graphic>
+                    </figure>
+                    <note>Rappresenta i refrigeria, i pasti funebri in onore del defunto.</note>
+                </glyph>
+                
+                <glyph xml:id="mulier">
+                    <glyphName xml:lang="en">ↄ</glyphName>
+                    <glyphName xml:lang="it">ↄ</glyphName>
+                    <desc>Lettera con valore simbolico</desc>
+                    <charProp>
+                        <localName>glifo display
+                        </localName>
+                        <value>&#x2184;</value>
+                    </charProp>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/mulier.jpg"></graphic>
+                    </figure>
+                    <note>Indica che un individuo è liberto di una donna.</note>
+                </glyph>
+                
+                <glyph xml:id="orans">
+                    <glyphName xml:lang="en">Praying person</glyphName>
+                    <glyphName xml:lang="it">Orante</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/orans.jpg"></graphic>
+                    </figure>
+                    <note>Indica che l'anima del defunto è nella pace di Dio.</note>
+                </glyph>
+                
+                <glyph xml:id="palma">
+                    <glyphName xml:lang="en">Palm</glyphName>
+                    <glyphName xml:lang="it">Palma</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/palma.jpg"></graphic>
+                    </figure>
+                    <note>Rappresenta la vittoria sul martirio, la pace e la resurrezione.</note>
+                </glyph>
+                
+                <glyph xml:id="pedes">
+                    <glyphName xml:lang="en">Feet</glyphName>
+                    <glyphName xml:lang="it">Piedi</glyphName>
+                    <desc>Simbolo augurale</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/pedes.jpg"></graphic>
+                    </figure>
+                    <note>I piedi potrebbero anche indicare la visita alla tomba.</note>
+                </glyph>
+                
+                <glyph xml:id="piscis">
+                    <glyphName xml:lang="en">Fish</glyphName>
+                    <glyphName xml:lang="it">Pesce</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/piscis.jpg"></graphic>
+                    </figure>
+                    <note>La parola greca ΙΧΘΥΣ, pesce, è acrostico per Ἰησοῦς Χριστός, Θεοῦ ͑Υιός, Σωτήρ, Gesù Cristo, figlio di Dio, salvatore.</note>
+                </glyph>
+                
+                <glyph xml:id="poculum">
+                    <glyphName xml:lang="en">Cup</glyphName>
+                    <glyphName xml:lang="it">Coppa</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/poculum.jpg"></graphic>
+                    </figure>
+                    <note>Rappresenta i refrigeria, i pasti funebri in onore del defunto.</note>
+                </glyph>
+                
+                <glyph xml:id="ramus">
+                    <glyphName xml:lang="en">Branch</glyphName>
+                    <glyphName xml:lang="it">Ramo</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/ramus.jpg"></graphic>
+                    </figure>
+                </glyph>
+                
+                <glyph xml:id="ramus_olivae">
+                    <glyphName xml:lang="en">Olive branch</glyphName>
+                    <glyphName xml:lang="it">Ramoscello d'ulivo</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/ramus_olivae.jpg"></graphic>
+                    </figure>
+                    <note>Rappresenta la resurrezione e la pace di Dio.</note>
+                </glyph>
+                
+                <glyph xml:id="sestertius">
+                    <glyphName xml:lang="en">Sesterce</glyphName>
+                    <glyphName xml:lang="it">Sesterzio</glyphName>
+                    <desc>Moneta d'argento romana</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/sestertius.jpg"></graphic>
+                    </figure>
+                </glyph>
+
+               <glyph xml:id="theta_nigrum">
+                    <glyphName xml:lang="en">θ</glyphName>
+                    <glyphName xml:lang="it">θ</glyphName>
+                    <desc>Lettera con valore simbolico</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/theta_nigrum.jpg"></graphic>
+                    </figure>
+                    <note>Iniziale della parola greca θνητός. Indica la morte.</note>
+                </glyph>
+
+                <glyph xml:id="urceus">
+                    <glyphName xml:lang="en">Jug</glyphName>
+                    <glyphName xml:lang="it">Brocca</glyphName>
+                    <desc>Simbolo cristiano</desc>
+                    <figure>
+                        <graphic url="http://epicum.istc.cnr.it/EPICUM/simboli/urceus.jpg"></graphic>
+                    </figure>
+                    <note>Brocca monoansata. Rappresenta i refrigeria, i pasti funebri in onore del defunto.</note>
+                </glyph>
+                
+            </charDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <!--This is a template for a minimal EpiDoc header with the mandatory components-->
+            </p>
+        </body>
+    </text>
+</TEI>
+
